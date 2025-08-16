@@ -1,0 +1,685 @@
+@media (max-width: 1300px) {
+
+    header .navbar .container-fluid {
+        width: 100%;
+    }
+
+    header .carousel-control-prev,
+    header .carousel-control-next {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+    }
+
+    header .carousel-control-prev i,
+    header .carousel-control-next i {
+        transform: scale(.8);
+    }
+
+    header .carousel-control-prev {
+        right: 90px;
+    }
+
+    header .carousel-control-next {
+        right: 30px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption h2 {
+        font-size: 36px !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption p {
+        width: 90%;
+        font-size: 11px;
+        margin: 15px auto !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption button {
+        font-size: 11px;
+        padding: 4px 14px 3px 14px;
+    }
+
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .image {
+        width: 40%;
+        position: relative;
+        z-index: 4;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 .image {
+        transform: translateY(60%);
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 h2 {
+        font-size: 55px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 p {
+        font-size: 12px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 h3 {
+        font-size: 25px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .btn {
+        font-size: 12px;
+        padding: 4px 14px 3px 14px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 h2 {
+        font-size: 20px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 p {
+        font-size: 12px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon {
+        margin-top: 20px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon img {
+        width: 75%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .btn {
+        font-size: 12px;
+        padding: 4px 14px 3px 14px;
+    }
+
+    #products .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    #products .item {
+        width: 110px;
+    }
+
+    #products .item img {
+        width: 45px;
+    }
+
+    .title h4 {
+        font-size: 20px;
+    }
+
+    .title h2 {
+        font-size: 35px;
+    }
+
+    .title .img-title img {
+        width: 15%;
+    }
+
+    .title .img-title::before,
+    .title .img-title::after {
+        width: 15%;
+    }
+
+    #About .container .item1 h3 {
+        font-size: 17px;
+    }
+
+    #About .container .item1 p {
+        font-size: 12px;
+    }
+
+    #About .container .item1 .text h5 {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    #About .container .img-about {
+        height: 200px;
+        text-align: center;
+    }
+
+    #Testimonials {
+        background-image: url(../img/testimonialsimg/video_image-min-a69f22d9.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+
+    #Testimonials .vid video {
+        display: none;
+    }
+
+    #Testimonials .container h2 {
+        font-size: 20px;
+    }
+
+    #Testimonials .container p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #Testimonials .container .row {
+        margin: auto;
+    }
+
+    #Testimonials .container hr {
+        width: 30%;
+    }
+
+    #Menu .row .part1 {
+        margin-bottom: 50px;
+    }
+
+    #Menu .row .nav-pills {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    #Menu .nav-item {
+        flex: 0 0 auto;
+        width: 85px;
+        height: 100px;
+    }
+
+    #Menu .nav-item .nav-link {
+        margin: auto;
+    }
+
+    #Menu .nav-item .nav-link img {
+        width: 30px;
+    }
+
+    #Menu .nav-item:nth-of-type(1) {
+        border-radius: 5px 0px 0px 0px;
+    }
+
+    #Menu .nav-item:nth-of-type(7) {
+        border-radius: 0px 0px 5px 0px;
+    }
+
+    #Menu .container-fluid .part2 .cards {
+        margin: 10px auto !important;
+    }
+
+    #Menu .nav-link::after {
+        border-right-color: transparent;
+        border-bottom-color: white;
+        bottom: -13%;
+        right: 35% !important;
+    }
+
+    #Menu .nav-item .nav-link.active::after {
+        bottom: 0%;
+    }
+
+    #Team .container .item {
+        max-width: 280px;
+        margin: 0px auto 70px;
+    }
+
+    #Order .item1 form h4 {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption h2 {
+        font-size: 45px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption p {
+        width: 80%;
+        font-size: 13px;
+        margin: 15px auto !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption button {
+        font-size: 15px;
+        padding: 7px 22px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .image {
+        width: 45%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 img {
+        max-width: 80% !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 .image {
+        transform: translateY(45%);
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 h2 {
+        font-size: 60px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 h3 {
+        margin: 10px 0px !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 p {
+        font-size: 14px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .btn {
+        font-size: 16px;
+        padding: 8px 24px;
+        margin-top: 10px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 h2 {
+        font-size: 25px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 p {
+        font-size: 14px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon {
+        margin-top: 22px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon img {
+        width: 60%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .btn {
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+
+    #products .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    #products .item {
+        width: 110px;
+    }
+
+    #products .item img {
+        width: 40%;
+    }
+
+    #About .container .item1 h3 {
+        font-size: 20px;
+    }
+
+    #About .container .item1 .text {
+        padding: 0 0 0 5px;
+    }
+
+    #About .container .item1 .text h5 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    #About .container .img-about {
+        height: 250px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    .navbar .container-fluid {
+        width: 87%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption h2 {
+        font-size: 55px !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 hr {
+        width: 75%;
+        margin: 18px auto;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 p {
+        width: 75%;
+        margin: auto;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 h3 {
+        margin-top: 20px !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .btn {
+        margin-top: 5px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon img {
+        width: 40%;
+    }
+
+    #products .product {
+        width: calc(100%/7);
+    }
+
+    #products .item {
+        width: 100%;
+    }
+
+    .title .img-title::before,
+    .title .img-title::after {
+        width: 10%;
+    }
+
+    #About .container .item1 h3 {
+        font-size: 25px;
+    }
+
+    #About .container .item1 p {
+        font-size: 16px;
+    }
+
+    #About .container .item1 .text {
+        padding: 0px;
+    }
+
+    #About .container .img-about {
+        height: 300px;
+    }
+
+    #Testimonials .container h2 {
+        font-size: 30px;
+    }
+
+    #Testimonials .container p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #Testimonials .container .box {
+        margin: auto;
+        width: 100%;
+    }
+
+    #Menu .row .nav-pills {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+
+    header .carousel-control-prev,
+    header .carousel-control-next {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+    }
+
+    header .carousel-control-prev {
+        right: 130px;
+    }
+
+    header .carousel-control-next {
+        right: 50px;
+    }
+
+    header .carousel-control-prev i,
+    header .carousel-control-next i {
+        transform: scale(1);
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption h2 {
+        font-size: 65px !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(1).active .carousel-caption p {
+        width: 60%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 .image {
+        width: 50%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 img {
+        max-width: 100% !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 .image {
+        transform: translateY(40%);
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 hr {
+        width: 100%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(2) .item1 p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .item1 {
+        width: 100% !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon {
+        margin-top: 0px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon img {
+        width: 60%;
+    }
+
+    .title .img-title img {
+        width: initial;
+    }
+
+    #About .container .item1 h3 {
+        font-size: 20px;
+    }
+
+    #About .container .item1 p {
+        font-size: 12px;
+    }
+
+    #About .container .item1 .text {
+        padding: 0px 0px 0px 5px;
+    }
+
+    #About .container .item1 .text h5 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    #About .container .img-about {
+        height: 250px;
+    }
+
+    #Testimonials {
+        background-image: none;
+        min-height: 400px;
+    }
+
+    #Testimonials .vid video {
+        display: block;
+    }
+
+    #Testimonials .container .row {
+        flex-wrap: nowrap;
+    }
+
+    #Testimonials .container h2 {
+        font-size: 35px
+    }
+
+    #Testimonials .container p {
+        font-size: 16px !important;
+        width: 90%;
+    }
+
+    #Testimonials .container .box {
+        width: 160px;
+    }
+
+    #Testimonials .container .box img {
+        width: 27%;
+    }
+
+    #Testimonials .container .box h4 {
+        font-size: 18px;
+    }
+
+    #Menu .container-fluid .part2 .col-md-4 {
+        width: calc(100%/3)
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    header .carousel-inner .carousel-item:nth-of-type(2).active .item1 .image {
+        transform: translateY(35%);
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .item1 {
+        width: 80% !important;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon {
+        margin-top: 0px;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .container .item2 .icon img {
+        width: 40%;
+    }
+
+    #About .container .item1 .text h5 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    #Testimonials {
+        background-image: none;
+        min-height: 450px;
+    }
+
+    #Testimonials .container hr {
+        width: 30%;
+    }
+
+    #Testimonials .container .box {
+        width: 220px;
+    }
+
+    #Testimonials .container .box p {
+        font-size: 20px !important;
+    }
+
+    #Testimonials .container .box h4 {
+        font-size: 20px;
+    }
+
+    #Menu .row .nav-pills {
+        flex-direction: column !important;
+        overflow: initial;
+    }
+
+    #Menu .nav-item {
+        height: 120px;
+    }
+
+    #Menu .nav-item:nth-of-type(1) {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #Menu .nav-item:nth-of-type(7) {
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    #Menu .container-fluid .part2 .col-lg-3 {
+        width: calc(100%/4)
+    }
+
+    #Menu .container-fluid .part2 .cards .p1 {
+        font-size: 15px;
+    }
+
+    #Menu .container-fluid .part2 .cards .p2 {
+        font-size: 15px;
+    }
+
+    #Menu .container-fluid .part2 .cards .col-4 {
+        text-align: end;
+    }
+
+    #Menu .container-fluid .part2 .cards i {
+        font-size: 8px;
+    }
+
+    #Menu .nav-link::after {
+        bottom: 50%;
+        right: -13% !important;
+        border-right-color: white;
+        border-bottom-color: transparent;
+    }
+
+    #Menu .nav-item .nav-link.active::after {
+        bottom: initial;
+        right: 0% !important;
+    }
+
+    #Team .container .row {
+        flex-wrap: nowrap;
+    }
+
+    #Team .container .chef1,
+    #Team .container .chef2 {
+        margin-right: 5px;
+    }
+
+    #Team .container .item {
+        width: 280px;
+    }
+
+    #Order .item1 form {
+        width: 400px;
+    }
+
+    #Order .item1 form h4 {
+        font-size: 28px;
+    }
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    #About .container .item1 .text {
+        padding: 0px;
+    }
+
+    #Testimonials .container .box {
+        width: 100%;
+    }
+
+    #Testimonials .container .box img {
+        width: 20%;
+    }
+
+    #Order .item1 form {
+        max-width: 470px;
+    }
+
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+    #Testimonials .container .box {
+        width: 250px;
+        margin-left: 5px;
+    }
+
+}

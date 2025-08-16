@@ -1,0 +1,60 @@
+@keyframes rotatepizza {
+
+    0% {
+        transform: rotate(0deg)
+    }
+
+
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+@keyframes burgerupdown {
+
+    0% {
+        transform: translateY(0px)
+    }
+
+
+    100% {
+        transform: translateY(-25px)
+    }
+}
+
+@keyframes rotatesquare {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes deliveryanimate {
+    0% {
+        transform: translateY(0px);
+        left: 0;
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateY(-25px);
+        left: 0;
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(0px);
+        left: 0;
+        ;
+    }
+
+    90%,
+    100% {
+        transform: translateX(100%);
+        left: 300%;
+    }
+
+}

@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--maincolor);
+    border-radius: 5px;
+    height: 10px;
+}
+
+:root {
+    --maincolor: #f1b601;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    perspective: 600px;
+}
+
+.font1 {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.font2 {
+    font-family: "Dancing Script", "cursive";
+}
+
+.font3 {
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dancing Script", "cursive";
+}
+
+a .btn {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: transparent;
+    font-size: 15px;
+    padding: 7px 22px;
+    color: var(--maincolor);
+    border: 2px solid var(--maincolor) !important;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition-duration: 1s;
+}
+
+.btn:hover::before {
+    left: 0%;
+}
+
+.btn span {
+    position: relative;
+    z-index: 4;
+    color: var(--maincolor);
+    transition-duration: 1s;
+}
+
+.btn:hover span {
+    color: white;
+}
+
+.title h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.title h4 {
+    color: var(--maincolor);
+}
+
+.title .img-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .img-title::before,
+.title .img-title::after {
+    content: "";
+    background-color: #fff;
+    display: block;
+    width: 5%;
+    height: 1.5px;
+}
