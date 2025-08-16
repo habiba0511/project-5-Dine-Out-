@@ -88,11 +88,12 @@ header .navbar .nav-item-header:hover a {
     color: var(--maincolor) !important;
 }
 
-header .navbar .nav-item-header {
+header .navbar .nav-item-header a {
     transition-duration: 1s;
+    display: block;
 }
 
-header .navbar .nav-item-header:hover {
+header .navbar .nav-item-header:hover a {
     transform: translateX(10%);
 }
 
@@ -963,4 +964,5 @@ footer p {
 
 footer p span {
     font-weight: 350;
+
 }
